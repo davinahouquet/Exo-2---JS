@@ -1,0 +1,22 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(102, 204, 177);
+    font-size: 2em;
+    text-align: center;
+    line-height: 185px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor : pointer;
+    transition : 0.8s, color 0.8s, transform 0.8s;
+    color: rgb(8, 53, 53);
+}
+
+.square-clicked{
+    transition: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
